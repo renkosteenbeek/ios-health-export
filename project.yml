@@ -19,6 +19,7 @@ targets:
       INFOPLIST_KEY_UILaunchScreen_Generation: true
       CODE_SIGN_ENTITLEMENTS: HealthExport/HealthExport.entitlements
       GENERATE_INFOPLIST_FILE: true
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     entitlements:
       path: HealthExport/HealthExport.entitlements
       properties:
