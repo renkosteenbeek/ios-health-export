@@ -2,6 +2,16 @@
 
 iOS app that exports Apple Health workouts to JSON. Supports running, strength training, and functional strength workouts.
 
+## Why?
+
+Ever finished a run and wished you could *actually talk about it* with someone who gets the numbers? Now you can. Export your workout as JSON, drop it into Claude, ChatGPT, or any AI of your choice, and have a real conversation about your training:
+
+*"Why did my heart rate spike at kilometer 3?"*
+*"Compare this run to last week's — am I getting faster?"*
+*"Was that strength session intense enough?"*
+
+Your workouts are full of data. Let AI help you make sense of it.
+
 ## Features
 
 - Browse recent workouts with key stats (distance, calories, heart rate)
