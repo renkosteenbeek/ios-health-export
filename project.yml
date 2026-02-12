@@ -1,0 +1,26 @@
+name: HealthExport
+options:
+  bundleIdPrefix: com.gentleinnovations
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "26.0"
+settings:
+  SWIFT_VERSION: "6.0"
+  SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  HealthExport:
+    type: application
+    platform: iOS
+    sources:
+      - HealthExport
+    settings:
+      TARGETED_DEVICE_FAMILY: 1
+      INFOPLIST_KEY_NSHealthShareUsageDescription: "Health Export needs access to your workouts to export them as JSON."
+      INFOPLIST_KEY_UILaunchScreen_Generation: true
+      CODE_SIGN_ENTITLEMENTS: HealthExport/HealthExport.entitlements
+      GENERATE_INFOPLIST_FILE: true
+    entitlements:
+      path: HealthExport/HealthExport.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
